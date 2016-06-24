@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #2F4F4F;
+}
+
+#search {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+.form-control {
+  float: left;
+  width: 70%;
+}
+
+button {
+  float: left;
+  width: 30%;
+}
+
+#title {
+  width: 100%;
+}
+
+#title.h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+#title {
+  margin-top: 100px;
+  text-align: center;
+}
